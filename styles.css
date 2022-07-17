@@ -1,0 +1,1762 @@
+/* Главная */
+
+.heading {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color:#fd6801;;
+}
+.heading:hover {
+    color: #fd6801;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.one {
+    border-radius: 50%;
+    background-color: white;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+.two {
+    border-radius: 50%;
+    background-color: white;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+.three {
+    border-radius: 50%;
+    background-color: white;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.one:hover {
+    transform: scale(1.1);
+    transition: transform 0.25s; 
+}
+.two:hover {
+    transform: scale(1.1);
+    transition: transform 0.25s;
+}
+.three:hover {
+    transform: scale(1.1);
+    transition: transform 0.25s; 
+}
+
+.parent-list {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-evenly;
+    border: none;
+    background-color: white;
+    opacity: 70%;
+    width: auto;
+}
+
+.item {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-evenly;
+    padding: 50px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.item:hover {
+    background-color:#fd6801;
+    text-transform: uppercase;
+}
+
+.main_bgr {
+    background-image: url("../Extra_HW_Series_alt/Main_page/Main_page.jpeg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    backdrop-filter: blur(3px);
+    margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+
+    .main_page{
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
+    }
+    .parent-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 0px auto;
+        margin: 0px auto;
+        padding: 0px auto;
+    }
+    .logos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px auto;
+    }
+    .heading {
+        display: flex;
+        flex-wrap: column wrap;
+        justify-content: center;
+        font-size: 20px;
+        color:black;
+    }
+
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .main_page{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .parent-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 0px auto;
+        margin: 0px auto;
+        padding: 0px auto;
+    }
+    .logos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px auto;
+    }
+
+    .heading {
+        display: flex;
+        flex-wrap: row wrap;
+        justify-content: center;
+        font-size: 20px;
+        color:black;
+    }
+
+    .item {
+        display: flex;
+        flex-wrap: row wrap;
+        justify-content: space-evenly;
+        padding: 0px auto;
+        font-size: 24px;
+        color: black;
+        text-decoration: none;
+}
+}
+
+/* Форс-мажоры ________________________________________________________________________________________________________________ */
+
+.navbar_sut {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: center;
+    background-color: white;
+    max-width: 100%;
+    opacity: 80%;
+    border: none;
+    font-family:  'Noto Sans', sans-serif;
+    margin: 0px auto;
+}
+.blocks_all_sut {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+.block_1_sut {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 0px auto;
+    margin: 0px auto;
+}
+
+.block_2_sut {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 600px;
+    height: 0px auto;
+    margin: 0px auto;
+}
+
+.block_3_sut {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 220px;
+    height: 0px auto;
+    text-align: center;
+}
+
+.sut {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.sut:hover {
+background-color: #ee1e24;
+text-transform: uppercase;
+font-size: 25px;
+}
+
+.suits_bgr {
+    background-image: url("..//Extra_HW_Series_alt/Suits/Suits.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:100%;
+    backdrop-filter: brightness(40%);
+    height: 0px auto;
+    margin: 0;
+}
+
+.suits_img {
+    width: 300px;
+}
+
+.title_sut {
+    color: #ee1e24;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.top_sut {
+    color: #ee1e24;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.text_sut {
+    font-size: 20px;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none; 
+    text-align: justify;
+}
+.text_sut:hover {
+    color: #ee1e24;  
+}
+
+.text_act_sut {
+    font-size: 20px;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none; 
+    text-align: center;
+}
+.text_act_sut:hover {
+    color: #ee1e24;  
+}
+
+.text_top_sut {
+    font-size: 20px;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none; 
+    text-align: start;
+}
+.text_top_sut:hover {
+    color: #ee1e24;  
+}
+
+li {
+    margin-left: -30px;
+    list-style: none;
+}
+
+.trailer_container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.item_trailer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin: 10px 10px 10px 10px;
+    padding: 0px 0px 56% 0px;
+    justify-content: center;
+}
+.item_trailer iframe {
+    object-fit: cover;
+    position: absolute;
+    width: 80%;
+    height: 80%;
+}
+
+.suits_bgr1 {
+    background-color: black;
+    margin: 0;
+    }
+
+.actors {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0px auto;
+}
+
+.actors_top_sut {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 0px auto;
+    padding-left: 56px;
+    width: 100%;
+    height: 100px;
+    color: #ee1e24;
+    font-family: 'Noto Sans', sans-serif; 
+}
+
+.actors_img_sut {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px auto;
+
+} 
+.actors_img_sut:hover {
+    transform: scale(1.05);
+    transition: transform 0.25s; 
+}
+
+.actors_text_sut {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 700px;
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    margin: 0px auto;
+    padding: 10px;
+    text-align: justify;
+}
+
+.actors_text_sut:hover {
+    background-color: rgba(0, 0, 0, 0.603);
+    font-size: 20px;
+}
+
+@media all and (max-width: 850px) {
+
+    .navbar_sut {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: white;
+        opacity: 80%;
+        border: none;
+        font-family: 'Noto Sans', sans-serif;
+    }
+
+    .blocks_all_sut {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 100%;
+        padding: 10px;
+    }
+
+    
+    .block_1_sut {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        width: auto;
+        text-align: center;
+    }
+    
+    .block_2_sut {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+        text-align: justify;
+        padding: 10px;
+    }
+
+    .block2_top_sut {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .text_top_sut {
+        font-size: 20px;
+        color: white;
+        font-family: 'Noto Sans', sans-serif;
+        text-decoration: none; 
+        text-align: center;
+    }
+    .text_top_sut:hover {
+        color: #ee1e24;  
+    }
+
+    .block_3_sut {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .top_sut {
+        color: #ee1e24;
+        font-family: 'Noto Sans', sans-serif;  
+        text-align: center;
+    }
+    .suits_bgr {
+        background-image: url("..//Extra_HW_Series_alt/Suits/Suits.jpeg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position:100%;
+        backdrop-filter: brightness(40%);
+        height: auto;
+    }
+    .actors {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin: 0px auto;
+    }
+    
+    .actors_top_sut {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0px auto;
+        padding: 10px;
+        width: 100%;
+        height: 50px;
+        color: #ee1e24;
+        font-family: 'Noto Sans', sans-serif; 
+    }
+    
+    .actors_img_sut {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 250px;
+        margin: 0px auto;
+        padding: 20px;
+    } 
+    .actors_img_sut:hover {
+        transform: scale(1.05);
+        transition: transform 0.25s; 
+    }
+    
+    .actors_text_sut {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 0px auto;
+        font-size: 18px;
+        font-family: 'Noto Sans', sans-serif;
+        color: white;
+        margin: 0px auto;
+        padding: 20px;
+        text-align: justify;
+    }
+    
+    .actors_text_sut:hover {
+        background-color: rgba(0, 0, 0, 0.685);
+        font-size: 22px;
+    }
+
+    .trailer_container {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .item_trailer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        margin: 10px 10px 10px 10px;
+        padding: 0px 0px 56% 0px;
+        justify-content: center;
+    }
+    .item_trailer iframe {
+        object-fit: cover;
+        position: absolute;
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .navbar_sut {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: white;
+        opacity: 80%;
+        border: none;
+        font-family: 'Noto Sans', sans-serif;
+    }
+
+    .blocks_all_sut {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height: 100%;
+        padding: 10px;
+    }
+    
+    .block_1_sut {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+    .block_2_sut {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 0px auto;
+        height: 0px auto;
+        margin: 0px auto;
+        padding: 10px;
+    }
+
+    .block2_top_sut {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .text_top_sut {
+        font-size: 20px;
+        color: white;
+        font-family: 'Noto Sans', sans-serif;
+        text-decoration: none; 
+        text-align: center;
+    }
+    .text_top_sut:hover {
+        color: #ee1e24;  
+    }
+    
+    .block_3_sut {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 300px;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .top_sut {
+        color: #ee1e24;
+        font-family: 'Noto Sans', sans-serif;
+        text-align: center;
+    }
+    .suits_bgr {
+        background-image: url("..//Extra_HW_Series_alt/Suits/Suits.jpeg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position:100%;
+        backdrop-filter: brightness(40%);
+        height: auto;
+    }
+
+    .actors {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin: 0px auto;
+    }
+    
+    .actors_top_sut {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0px auto;
+        padding: 10px;
+        width: 100%;
+        height: 50px;
+        color: #ee1e24;
+        font-family: 'Noto Sans', sans-serif; 
+    }
+    
+    .actors_img_sut {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 250px;
+        margin: 0px auto;
+        padding: 20px;
+    } 
+    .actors_img_sut:hover {
+        transform: scale(1.05);
+        transition: transform 0.25s; 
+    }
+    
+    .actors_text_sut {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 0px auto;
+        font-size: 18px;
+        font-family: 'Noto Sans', sans-serif;
+        color: white;
+        margin: 0px auto;
+        padding: 20px;
+        text-align: justify;
+    }
+    
+    .actors_text_sut:hover {
+        background-color: rgba(0, 0, 0, 0.685);
+        font-size: 22px;
+    }
+
+    .trailer_container {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .item_trailer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        margin: 10px 10px 10px 10px;
+        padding: 0px 0px 56% 0px;
+        justify-content: center;
+    }
+    .item_trailer iframe {
+        object-fit: cover;
+        position: absolute;
+        width: 80%;
+        height: 80%;
+    }
+}
+
+
+/* Ведьмак ________________________________________________________________________________________________________________ */
+
+.navbar_wtr {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: center;
+    max-width: 100%;
+    background-color: white;
+    opacity: 80%;
+    border: none;
+    font-family:  'El Messiri', sans-serif;
+    margin: 0px auto;
+}
+.blocks_all_wtr {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+.block_1_wtr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 0px auto;
+    margin: 0px auto;
+}
+
+.block_2_wtr {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 0px auto;
+    margin: 0px auto;
+}
+
+.block_3_wtr {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 220px;
+    height: 0px auto;
+    text-align: center;
+}
+
+.wtr {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.wtr:hover {
+background-color: #fd6801;
+text-transform: uppercase;
+font-size: 25px;
+}
+
+.whitcher_bgr {
+    background-image: url("..//Extra_HW_Series_alt/Witcher/Witcher.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:100%;
+    backdrop-filter: grayscale(100%) brightness(40%);
+    height: 0px auto;
+    margin: 0;
+}
+
+.whitcher_img {
+    width: 300px;
+}
+
+.title_wtr {
+    color: #fd6801;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.top_wtr {
+    color: #fd6801;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.text_wtr {
+    font-size: 20px;
+    color: white;
+    font-family: 'El Messiri', sans-serif;
+    text-decoration: none; 
+    text-align: justify;
+}
+.text_wtr:hover {
+    color:#fd6801; 
+}
+
+.text_act_wtr {
+    font-size: 20px;
+    color: white;
+    font-family: 'El Messiri', sans-serif;
+    text-decoration: none; 
+    text-align: center;
+}
+.text_act_wtr:hover {
+    color:#fd6801; 
+}
+
+.text_top_wtr {
+    font-size: 20px;
+    color: white;
+    font-family: 'El Messiri', sans-serif;
+    text-decoration: none; 
+    text-align: start;
+}
+.text_top_wtr:hover {
+    color:#fd6801; 
+}
+
+li {
+    margin-left: -30px;
+    list-style: none;
+}
+
+.trailer_container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.item_trailer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin: 10px 10px 10px 10px;
+    padding: 0px 0px 56% 0px;
+    justify-content: center;
+}
+.item_trailer iframe {
+    object-fit: cover;
+    position: absolute;
+    width: 80%;
+    height: 80%;
+}
+
+.whitcher_bgr1 {
+    background-color: black;
+    margin: 0;
+    }
+
+.actors {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0px auto;
+}
+
+.actors_top_wtr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 0px auto;
+    padding-left: 56px;
+    width: 100%;
+    height: 100px;
+    color: #fd6801; 
+    font-family: 'El Messiri', sans-serif;
+}
+
+.actors_img_wtr {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px auto;
+
+} 
+.actors_img_wtr:hover {
+    transform: scale(1.05);
+    transition: transform 0.25s; 
+}
+
+.actors_text_wtr {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 700px;
+    font-size: 16px;
+    font-family: 'El Messiri', sans-serif;
+    color: white;
+    margin: 0px auto;
+    padding: 10px;
+    text-align: justify;
+}
+
+.actors_text_wtr:hover {
+    background-color: rgba(0, 0, 0, 0.603);
+    font-size: 20px;
+}
+
+@media all and (max-width: 850px) {
+
+    .navbar_wtr {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: white;
+        opacity: 80%;
+        border: none;
+        font-family: 'El Messiri', sans-serif;
+    }
+
+    .blocks_all_wtr {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 100%;
+        padding: 10px;
+    }
+
+    
+    .block_1_wtr {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        width: auto;
+        text-align: center;
+    }
+    
+    .block_2_wtr {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+        text-align: justify;
+        padding: 10px;
+    }
+
+    .block2_top_wtr {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .text_top_wtr {
+        font-size: 20px;
+        color: white;
+        font-family: 'El Messiri', sans-serif;
+        text-decoration: none; 
+        text-align: center;
+    }
+    .text_top_wtr:hover {
+        color: #fd6801; 
+    }
+
+    .block_3_wtr {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .top_wtr {
+        color: #fd6801; 
+        font-family: 'El Messiri', sans-serif;
+        text-align: center;
+    }
+
+    .whitcher_bgr {
+        background-image: url("..//Extra_HW_Series_alt/Witcher/mob_wtr.jpeg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position:100%;
+        backdrop-filter: brightness(40%);
+        height: auto;
+    }
+    .actors {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin: 0px auto;
+    }
+    
+    .actors_top_wtr {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0px auto;
+        padding: 10px;
+        width: 100%;
+        height: 50px;
+        color: #fd6801; 
+        font-family: 'El Messiri', sans-serif;
+    }
+    
+    .actors_img_wtr {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 250px;
+        margin: 0px auto;
+        padding: 20px;
+    } 
+    .actors_img_wtr:hover {
+        transform: scale(1.05);
+        transition: transform 0.25s; 
+    }
+    
+    .actors_text_wtr {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 0px auto;
+        font-size: 18px;
+        font-family: 'El Messiri', sans-serif;
+        color: white;
+        margin: 0px auto;
+        padding: 20px;
+        text-align: justify;
+    }
+    
+    .actors_text_wtr:hover {
+        background-color: rgba(0, 0, 0, 0.685);
+        font-size: 22px;
+    }
+
+    .trailer_container {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .item_trailer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        margin: 10px 10px 10px 10px;
+        padding: 0px 0px 56% 0px;
+        justify-content: center;
+    }
+    .item_trailer iframe {
+        object-fit: cover;
+        position: absolute;
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .navbar_wtr {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: white;
+        opacity: 80%;
+        border: none;
+        font-family: 'El Messiri', sans-serif;
+    }
+
+    .blocks_all_wtr {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height: 100%;
+        padding: 10px;
+    }
+    
+    .block_1_wtr {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+    .block_2_wtr {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 0px auto;
+        height: 0px auto;
+        margin: 0px auto;
+        padding: 10px;
+    }
+
+    .block2_top_wtr {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .text_top_wtr {
+        font-size: 20px;
+        color: white;
+        font-family: 'El Messiri', sans-serif;
+        text-decoration: none; 
+        text-align: center;
+    }
+    .text_top_wtr:hover {
+        color: #fd6801; 
+    }
+    
+    .block_3_wtr {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 300px;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .top_wtr {
+        color: #fd6801; 
+        font-family: 'El Messiri', sans-serif;
+        text-align: center;
+    }
+
+    .whitcher_bgr {
+        background-image: url("..//Extra_HW_Series_alt/Witcher/Witcher.jpeg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position:100%;
+        backdrop-filter: brightness(40%);
+        height: auto;
+    }
+
+    .actors {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin: 0px auto;
+    }
+    
+    .actors_top_wtr {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0px auto;
+        padding: 10px;
+        width: 100%;
+        height: 50px;
+        color: #fd6801; 
+        font-family: 'El Messiri', sans-serif;
+    }
+    
+    .actors_img_wtr {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 250px;
+        margin: 0px auto;
+        padding: 20px;
+    } 
+    .actors_img_wtr:hover {
+        transform: scale(1.05);
+        transition: transform 0.25s; 
+    }
+    
+    .actors_text_wtr {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 0px auto;
+        font-size: 18px;
+        font-family: 'El Messiri', sans-serif;
+        color: white;
+        margin: 0px auto;
+        padding: 20px;
+        text-align: justify;
+    }
+    
+    .actors_text_wtr:hover {
+        background-color: rgba(0, 0, 0, 0.685);
+        font-size: 22px;
+    }
+
+    .trailer_container {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .item_trailer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        margin: 10px 10px 10px 10px;
+        padding: 0px 0px 56% 0px;
+        justify-content: center;
+    }
+    .item_trailer iframe {
+        object-fit: cover;
+        position: absolute;
+        width: 80%;
+        height: 80%;
+    }
+}
+
+/* Игра престолов ________________________________________________________________________________________________________________ */
+
+.navbar_got {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: center;
+    background-color: white;
+    max-width: 100%;
+    opacity: 80%;
+    border: none;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0px auto;
+}
+
+.blocks_all_got {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+.block_1_got {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 0px auto;
+    margin: 0px auto;
+}
+
+.block_2_got {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 600px;
+    height: 0px auto;
+    margin: 0px auto;
+}
+
+.block_3_got {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 220px;
+    height: 0px auto;
+    text-align: center;
+}
+
+.got {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.got:hover {
+background-color: #eac158; 
+text-transform: uppercase;
+font-size: 25px;
+}
+
+.got_bgr {
+    background-image: url("..//Extra_HW_Series_alt/GOT/GOT.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:100%;
+    backdrop-filter: brightness(40%);
+    height: 0px auto;
+    margin: 0;
+}
+
+.got_img {
+width: 300px;
+}
+
+.title_got {
+    color: #eac158;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.top_got {
+    color: #eac158;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.text_got {
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    text-decoration: none; 
+    text-align: justify;
+}
+.text_got:hover {
+    color: #eac158;
+
+}
+
+.text_act_got {
+    font-size: 20px;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: none; 
+    text-align: center;
+}
+.text_act_got:hover {
+    color: #eac158; 
+}
+
+.text_top_got {
+    font-size: 20px;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: none; 
+    text-align: start;
+}
+.text_top_got:hover {
+    color: #eac158;
+
+}
+
+li {
+    margin-left: -30px;
+    list-style: none;
+}
+
+.trailer_container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.item_trailer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin: 10px 10px 10px 10px;
+    padding: 0px 0px 56% 0px;
+    justify-content: center;
+}
+.item_trailer iframe {
+    object-fit: cover;
+    position: absolute;
+    width: 80%;
+    height: 80%;
+}
+
+.got_bgr1 {
+    background-color: black;
+    margin: 0;
+    }
+
+.actors {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0px auto;
+}
+
+.actors_top_got {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 0px auto;
+    padding-left: 56px;
+    width: 100%;
+    height: 100px;
+    color: #eac158;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.actors_img_got {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px auto;
+
+} 
+.actors_img_got:hover {
+    transform: scale(1.05);
+    transition: transform 0.25s; 
+}
+
+.actors_text_got {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 700px;
+    font-size: 18px;
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    margin: 0px auto;
+    padding: 10px;
+    text-align: justify;
+}
+
+.actors_text_got:hover {
+    background-color: rgba(0, 0, 0, 0.603);
+    font-size: 20px;
+}
+
+@media all and (max-width: 850px) {
+
+    .navbar_got {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: white;
+        opacity: 80%;
+        border: none;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    .blocks_all_got {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 100%;
+        padding: 10px;
+    }
+
+    
+    .block_1_got {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        width: auto;
+        text-align: center;
+    }
+    
+    .block_2_got {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+        text-align: justify;
+        padding: 10px;
+    }
+
+    .block2_top_got {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .text_top_got {
+        font-size: 20px;
+        color: white;
+        font-family: 'Cormorant Garamond', serif;
+        text-decoration: none; 
+        text-align: center;
+    }
+    .text_top_got:hover {
+        color: #eac158;
+    }
+
+    .block_3_got {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .top_got {
+        color: #eac158;
+        font-family: 'Cormorant Garamond', serif;
+        text-align: center;
+    }
+
+    .got_bgr {
+        background-image: url("..//Extra_HW_Series_alt/GOT/GOT.jpeg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position:100%;
+        backdrop-filter: brightness(40%);
+        height: auto;
+    }
+    .actors {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin: 0px auto;
+    }
+    
+    .actors_top_got {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0px auto;
+        padding: 10px;
+        width: 100%;
+        height: 50px;
+        color: #eac158;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    
+    .actors_img_got {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 250px;
+        margin: 0px auto;
+        padding: 20px;
+    } 
+    .actors_img_got:hover {
+        transform: scale(1.05);
+        transition: transform 0.25s; 
+    }
+    
+    .actors_text_got {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 0px auto;
+        font-size: 18px;
+        font-family: 'Cormorant Garamond', serif;
+        color: white;
+        margin: 0px auto;
+        padding: 20px;
+        text-align: justify;
+    }
+    
+    .actors_text_got:hover {
+        background-color: rgba(0, 0, 0, 0.685);
+        font-size: 22px;
+    }
+
+    .trailer_container {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .item_trailer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        margin: 10px 10px 10px 10px;
+        padding: 0px 0px 56% 0px;
+        justify-content: center;
+    }
+    .item_trailer iframe {
+        object-fit: cover;
+        position: absolute;
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .navbar_got {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: white;
+        opacity: 80%;
+        border: none;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    .blocks_all_got {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height: 100%;
+        padding: 10px;
+    }
+    
+    .block_1_got {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+    .block_2_got {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 0px auto;
+        height: 0px auto;
+        margin: 0px auto;
+        padding: 10px;
+    }
+
+    .block2_top_got {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .text_top_got {
+        font-size: 20px;
+        color: white;
+        font-family: 'Cormorant Garamond', serif;
+        text-decoration: none; 
+        text-align: center;
+    }
+    .text_top_got:hover {
+        color: #eac158;
+    }
+    
+    .block_3_got {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 300px;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .top_got {
+        color: #eac158;
+        font-family: 'Cormorant Garamond', serif;
+        text-align: center;
+    }
+
+    .got_bgr {
+        background-image: url("..//Extra_HW_Series_alt/GOT/GOT.jpeg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position:100%;
+        backdrop-filter: brightness(40%);
+        height: auto;
+    }
+
+    .actors {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin: 0px auto;
+    }
+    
+    .actors_top_got {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0px auto;
+        padding: 10px;
+        width: 100%;
+        height: 50px;
+        color: #eac158; 
+        font-family: 'Cormorant Garamond', serif;
+    }
+    
+    .actors_img_got {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 250px;
+        margin: 0px auto;
+        padding: 20px;
+    } 
+    .actors_img_got:hover {
+        transform: scale(1.05);
+        transition: transform 0.25s; 
+    }
+    
+    .actors_text_got {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 0px auto;
+        font-size: 18px;
+        font-family: 'Cormorant Garamond', serif;
+        color: white;
+        margin: 0px auto;
+        padding: 20px;
+        text-align: justify;
+    }
+    
+    .actors_text_got:hover {
+        background-color: rgba(0, 0, 0, 0.685);
+        font-size: 22px;
+    }
+
+    .trailer_container {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .item_trailer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        margin: 10px 10px 10px 10px;
+        padding: 0px 0px 56% 0px;
+        justify-content: center;
+    }
+    .item_trailer iframe {
+        object-fit: cover;
+        position: absolute;
+        width: 80%;
+        height: 80%;
+    }
+}
+
